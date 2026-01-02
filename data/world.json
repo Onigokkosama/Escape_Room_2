@@ -1,1 +1,20 @@
 # Definizione delle stanze, oggetti, eventi
+
+{
+  "start_room": "room_entrance",
+
+  "rooms": {
+    "room_entrance": {
+      "name_key": "room.entrance.name",
+      "description_key": "room.entrance.description",
+      "exits": {
+        "north": "room_hall"
+      }
+    },
+
+    "room_hall": {
+      "name_key": "room.hall.name",
+      "description_key": "room.hall.description",
+      "exits": {
+        "south": "room_entrance"
+      }
