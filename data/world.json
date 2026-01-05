@@ -1,20 +1,81 @@
 # Definizione delle stanze, oggetti, eventi
 
 {
-  "start_room": "room_entrance",
+  "start_room": "entrance",
 
   "rooms": {
-    "room_entrance": {
-      "name_key": "room.entrance.name",
-      "description_key": "room.entrance.description",
+    "entrance": {
+      "name_key": "entrance.name",
+      "description_key": "entrance.description",
       "exits": {
-        "north": "room_hall"
-      }
+        "north": "dining_room"
+        "south": "master_bedroom"
+        "east": "kitchen"
     },
 
-    "room_hall": {
-      "name_key": "room.hall.name",
-      "description_key": "room.hall.description",
+    "dining_room": {
+      "name_key": "dining.room.name",
+      "description_key": "dinig.room.description",
       "exits": {
-        "south": "room_entrance"
-      }
+        "south": "entrance"
+        "east": "north_hallway"
+    },
+
+    "north_hallway": {
+      "name_key": "north.hallway.name",
+      "description_key": "north.hallway.description",
+      "exits": {
+        "east": "2nd_bedroom"
+        "south": "main_hallway"
+    },
+
+    "main_hallway": {
+      "name_key": "main.hallway.name",
+      "description_key": "main.hallway.description",
+      "exits": {
+        "west": "kitchen"
+        "south_west": "bathroom"
+        "south": "south_hallway"
+        "south_east": "library"
+        "east": "east_hallway"
+        "north_east": "2nd_bedroom"
+        "north": "north_hallway"
+    },
+
+    "master_bedroom": {
+      "name_key": "master.bedroom.name",
+      "description_key": "master.bedroom.description",
+      "exits": {
+       "north": "entrance"
+       "east": "south_hallway"
+    },
+        
+    "south_hallway": {
+      "name_key": "south.hallway.name",
+      "description_key": "south.hallway.description",
+      "exits": {
+       "north": "main_hallway"
+    },
+        
+    "library": {
+      "name_key": "library.name",
+      "description_key": "library.description",
+      "exits": {
+       "north_east": "secret_room"
+       "west": "main_hallway"
+    },
+
+    "east_hallway": {
+      "name_key": "south.hallway.name",
+      "description_key": "south.hallway.description",
+      "exits": {
+       "north": "2nd_bedroom"
+       "out": "final_exit"
+    },
+
+    "final_exit": {
+      "name_key": "final.exit.name",
+      "description_key": "final.exit.description",
+      "exits": {}
+    }
+}   
