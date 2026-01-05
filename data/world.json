@@ -3,79 +3,116 @@
 {
   "start_room": "entrance",
 
+
   "rooms": {
     "entrance": {
-      "name_key": "entrance.name",
-      "description_key": "entrance.description",
+      "name_key": "room.entrance.name",
+      "description_key": "room.entrance.description",
       "exits": {
-        "north": "dining_room"
-        "south": "master_bedroom"
+        "north": "dining_room",
+        "south": "master_bedroom",
         "east": "kitchen"
+      }
+      
     },
 
     "dining_room": {
-      "name_key": "dining.room.name",
-      "description_key": "dinig.room.description",
+      "name_key": "room.dining.name",
+      "description_key": "room.dining.description",
       "exits": {
-        "south": "entrance"
+        "south": "entrance",
         "east": "north_hallway"
+      }
     },
 
     "north_hallway": {
-      "name_key": "north.hallway.name",
-      "description_key": "north.hallway.description",
+      "name_key": "room.north.hallway.name",
+      "description_key": "room.north.hallway.description",
       "exits": {
-        "east": "2nd_bedroom"
+        "east": "2nd_bedroom",
         "south": "main_hallway"
+        }
     },
 
     "main_hallway": {
-      "name_key": "main.hallway.name",
-      "description_key": "main.hallway.description",
+      "name_key": "room.main.hallway.name",
+      "description_key": "room.main.hallway.description",
       "exits": {
-        "west": "kitchen"
-        "south_west": "bathroom"
-        "south": "south_hallway"
-        "south_east": "library"
-        "east": "east_hallway"
-        "north_east": "2nd_bedroom"
+        "west": "kitchen",
+        "south_west": "bathroom",
+        "south": "south_hallway",
+        "south_east": "library",
+        "east": "east_hallway",
+        "north_east": "2nd_bedroom",
         "north": "north_hallway"
-    },
+        }
+      },
+
+    "bathroom": {
+      "name_key": "room.bathroom.name",
+      "description_key": "room.bathroom.description",
+      "exits": {
+         "west": "main_hallway"
+        }
+      },
 
     "master_bedroom": {
-      "name_key": "master.bedroom.name",
-      "description_key": "master.bedroom.description",
+      "name_key": "room.master.bedroom.name",
+      "description_key": "room.master.bedroom.description",
       "exits": {
-       "north": "entrance"
-       "east": "south_hallway"
-    },
+         "north": "entrance",
+         "east": "south_hallway"
+        }
+      },
         
     "south_hallway": {
-      "name_key": "south.hallway.name",
-      "description_key": "south.hallway.description",
+      "name_key": "room.south.hallway.name",
+      "description_key": "room.south.hallway.description",
       "exits": {
-       "north": "main_hallway"
-    },
+         "north": "main_hallway"
+        }
+      },
         
     "library": {
-      "name_key": "library.name",
-      "description_key": "library.description",
+      "name_key": "room.library.name",
+      "description_key": "room.library.description",
       "exits": {
-       "north_east": "secret_room"
-       "west": "main_hallway"
-    },
+         "north_east": "secret_room",
+         "west": "main_hallway"
+        }
+      },
+
+    "secret_room": {
+      "name_key": "room.secret.name",
+      "description_key": "room.secret.description",
+      "exits": {
+         "south": "library"
+        }
+      },
 
     "east_hallway": {
-      "name_key": "south.hallway.name",
-      "description_key": "south.hallway.description",
+      "name_key": "room.east.hallway.name",
+      "description_key": "room.east.hallway.description",
       "exits": {
-       "north": "2nd_bedroom"
-       "out": "final_exit"
-    },
+         "north": "2nd_bedroom",
+         "out": "final_exit"
+        }
+      },
+
+    "2nd_bedroom": {
+       "name_key": "room.2nd.bedroom.name",
+      "description_key": "room.2nd.bedroom.description",
+      "exits": {
+         "west": "north_hallway",
+         "south": "main_hallway"
+        }
+      },
+      
 
     "final_exit": {
-      "name_key": "final.exit.name",
-      "description_key": "final.exit.description",
+      "name_key": "room.final.exit.name",
+      "description_key": "room.final.exit.description",
       "exits": {}
     }
+  }
 }   
