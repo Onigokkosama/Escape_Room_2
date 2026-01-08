@@ -1,1 +1,50 @@
 # English translation
+
+{
+  "language": "en",
+
+ #ROOMS
+  
+  "rooms": {
+    
+    "room.entrance.name": "Entrance",
+    "room.entrance.description": "You are standing at the entrance of what looks like an abandoned house. The air is stale, and silence surrounds you. You look around, disoriented.\n",
+      "The furniture is dusty and dilapidated, but suggests ancient welth. Behind you there’s the door you suppose you came from. You see two other doors: one on your right, and one in front of you, further into the room.\n" ,
+      "The walls and the room as a whole are elegantly decorated with emblems, carpets, hunting trophies – including a dragon head so realistic it feels like it could spit fire at any moment - and statues of different dimentions.\n",
+      "The biggest of the lot, and the one in the best conditions, is a life-size piece representing a young man with a staff. On your right, a thick tapestry covers a good size of the wall, from cealing to floor.\n",
+      "What is this place? How and why are you even here? Your head feels fuzzy when you try to focus."
+
+    ,"room.dining.name": "Dining Room",
+    "room.dining.description": 
+  },
+
+  #OBJECTS
+  
+  "objects": {
+    
+  },
+
+  #DOORS
+  
+  "doors": {
+    
+  },
+
+  #SYSTEM
+  
+  "system": {
+    
+  },
+
+  # ACTIONS
+
+  "verbs": {
+    "MOVE": ["go", "walk", "move", "enter", "exit", "out"],
+    "TAKE": ["take", "grab", "pick"],
+    "EXAMINE": ["examine", "look", "inspect"],
+    "USE": ["put", "place", "insert", "turn", "push", "pull", "open" ]
+  }
+}
+
+
+
