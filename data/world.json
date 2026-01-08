@@ -9,9 +9,12 @@
       "name_key": "room.entrance.name",
       "description_key": "room.entrance.description",
       "exits": {
-        "north": "dining_room",
-        "south": "master_bedroom",
-        "east": "kitchen"
+        "left": "dining_room",
+        "right": {
+          "to": "dining_room",
+          "blocked_by": "tapestry"
+        },
+        "front": "kitchen"
       }
       "objects": ["entrance_door","decorations", "tapestry","master_door", "Merlin", "Kilgharrah"]
     },
@@ -31,7 +34,10 @@
       "description_key": "room.north.hallway.description",
       "exits": {
         "west": "dining_room",
-        "east": "2nd_bedroom",
+        "east": {
+          "to":"2nd_bedroom",
+          "door": "bedroom_door",
+          "requires": "bedroom_key" },
         "south": "main_hallway"
         }
       "objects": ["bedroom_door"]
@@ -43,7 +49,10 @@
       "exits": {
         "west": "kitchen",
         "south": "south_hallway",
-        "south_east": "library",
+        "south_east": {
+            "to": "library",
+            "door": "library_door",
+            "requires": "library_key" },
         "east": "east_hallway",
         "north": "north_hallway"
         }
@@ -84,10 +93,14 @@
       "name_key": "room.library.name",
       "description_key": "room.library.description",
       "exits": {
-         "north": "secret_room",
+         "north": {
+           "to":"secret_room",
+           "blocked_by": "bookshelf",
+           "requires":"magic_book",
+         },
          "west": "main_hallway"
         }
-      "objects": ["tables_l", "bookshelves", "secret_door"]
+      "objects": ["tables_l", "bookshelf"]
       },
 
     "secret_room": {
@@ -113,7 +126,10 @@
       "description_key": "room.east.hallway.description",
       "exits": {
          "north": "2nd_bedroom",
-         "out": "final_exit",
+         "out": {
+           "to":"final_exit",
+           "door": "exit_door",
+           "requires": "exit_key" },
          "west": "main_hallway"
         }
       "objects": ["bedroom_exit", "exit_door"]
@@ -133,7 +149,7 @@
     "final_exit": {
       "name_key": "room.final.exit.name",
       "description_key": "room.final.exit.description",
-      "exits": {}
+      "exits": { }
     }
   }
 }   
