@@ -1,0 +1,15 @@
+# lista degli ogetti interagibili
+
+"objects": {
+
+  # ENTRANCE
+  
+  "tapestry":{
+    "type": "movable",
+    "state": "covering_exit",
+    "covers_exit": "right",
+    "actions": ["examine", "move", "use"]
+  },
+
+  
+}
