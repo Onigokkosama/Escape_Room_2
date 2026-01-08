@@ -13,7 +13,7 @@
         "south": "master_bedroom",
         "east": "kitchen"
       }
-      
+      "objects": ["entrance_door","decorations", "tapestry","master_door", "Merlin", "Kilgharrah"]
     },
 
     "dining_room": {
@@ -23,15 +23,18 @@
         "south": "entrance",
         "east": "north_hallway"
       }
+      "objects": ["fireplace_on", "round_table", "decorations", "library_key"]
     },
 
     "north_hallway": {
       "name_key": "room.north.hallway.name",
       "description_key": "room.north.hallway.description",
       "exits": {
+        "west": "dining_room",
         "east": "2nd_bedroom",
         "south": "main_hallway"
         }
+      "objects": ["bedroom_door"]
     },
 
     "main_hallway": {
@@ -39,21 +42,21 @@
       "description_key": "room.main.hallway.description",
       "exits": {
         "west": "kitchen",
-        "south_west": "bathroom",
         "south": "south_hallway",
         "south_east": "library",
         "east": "east_hallway",
-        "north_east": "2nd_bedroom",
         "north": "north_hallway"
         }
+      "objects": ["library_door"]
       },
 
     "bathroom": {
       "name_key": "room.bathroom.name",
       "description_key": "room.bathroom.description",
       "exits": {
-         "west": "main_hallway"
+         "east": "south_hallway"
         }
+      "objects": ["bathtub", "mirror"]
       },
 
     "master_bedroom": {
@@ -63,23 +66,28 @@
          "north": "entrance",
          "east": "south_hallway"
         }
+      "objects": ["bed", "closet", "fireplace_off", "desk_1", "bedroom_key"]
       },
         
     "south_hallway": {
       "name_key": "room.south.hallway.name",
       "description_key": "room.south.hallway.description",
       "exits": {
-         "north": "main_hallway"
+         "north": "main_hallway",
+         "west": "master_bedroom",
+         "north_west": "bathroom"
         }
+      
       },
         
     "library": {
       "name_key": "room.library.name",
       "description_key": "room.library.description",
       "exits": {
-         "north_east": "secret_room",
+         "north": "secret_room",
          "west": "main_hallway"
         }
+      "objects": ["tables_l", "bookshelves", "secret_door"]
       },
 
     "secret_room": {
@@ -88,6 +96,16 @@
       "exits": {
          "south": "library"
         }
+      "objects": ["Arthur", "flower", "exit_key"]
+      },
+
+     "kitchen": {
+      "name_key": "room.kitchen.name",
+      "description_key": "room.kitchen.description",
+      "exits": {
+         "east": "main_hallway"
+        }
+      "objects": ["stove", "tables_k","Excalibur", "bucket"]
       },
 
     "east_hallway": {
@@ -95,17 +113,20 @@
       "description_key": "room.east.hallway.description",
       "exits": {
          "north": "2nd_bedroom",
-         "out": "final_exit"
+         "out": "final_exit",
+         "west": "main_hallway"
         }
+      "objects": ["bedroom_exit", "exit_door"]
       },
 
     "2nd_bedroom": {
-       "name_key": "room.2nd.bedroom.name",
-      "description_key": "room.2nd.bedroom.description",
+       "name_key": "room.bedroom.name",
+      "description_key": "room.bedroom.description",
       "exits": {
          "west": "north_hallway",
-         "south": "main_hallway"
+         "south": "east_hallway"
         }
+      "objects": ["beds", "desk_2", "books", "magic_book"]
       },
       
 
