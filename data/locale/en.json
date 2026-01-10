@@ -8,11 +8,26 @@
   "rooms": {
     
     "room.entrance.name": "Entrance",
-    "room.entrance.description": "You are standing at the entrance of what looks like an abandoned house. The air is stale, and silence surrounds you. You look around, disoriented.\n",
-      "The furniture is dusty and dilapidated, but suggests ancient welth. Behind you there’s the door you suppose you came from. You see two other doors: one on your right, and one in front of you, further into the room.\n" ,
-      "The walls and the room as a whole are elegantly decorated with emblems, carpets, hunting trophies – including a dragon head so realistic it feels like it could spit fire at any moment - and statues of different dimentions.\n",
-      "The biggest of the lot, and the one in the best conditions, is a life-size piece representing a young man with a staff. On your right, a thick tapestry covers a good size of the wall, from cealing to floor.\n",
+    "room.entrance.first.description": [
+      "You are standing at the entrance of what looks like an abandoned house. The air is stale, and silence surrounds you. You look around, disoriented.",
+      "The furniture is dusty and dilapidated, but suggests ancient welth. Behind you there’s the door you suppose you came from. You see two more: a big, double door on the side, and a smaller one, further into the room." ,
+      "The walls and the room as a whole are elegantly decorated with emblems, carpets, hunting trophies – including a dragon head so realistic it feels like it could spit fire at any moment - and statues of different dimentions.",
+      "The biggest of the lot, and the one in the best conditions, is a life-size piece representing a young man with a staff. Along one wall, a thick tapestry hangs from ceiling to floor.",
       "What is this place? How and why are you even here? Your head feels fuzzy when you try to focus."
+    ],
+    
+    "room.entrance.conditional.revisit.description": [
+      "You find yourself in the entrance again. Nothing has changed from when you were here before:", 
+      "You see the decorations on the walls, the mesmerazing dragon head and the young man’s statue in front of it.",
+      "The front door, the smaller door opposite to it and the double door on the wall beside.",
+      "The thick tapestry covering part of the remaining wall."
+    ],
+
+    "room.entrance.revisit.description": [
+      "You are back at the entrance. The decorations start to feel familiar to you, almost comforting in the confused chaos in your mind.", 
+      "The front door, the double door on its side and the smaller one are where you left them, so is the young man’s statue and the big dragon head on the wall in front of him.",
+      "The tapestry that used to cover the big bedroom is hanging precariously, ready to surrender itself to gravity and time, but still valiantly fighting to stay in place."
+    ]
 
     ,"room.dining.name": "Dining Room",
     "room.dining.description": 
@@ -39,9 +54,9 @@
   # ACTIONS
 
   "verbs": {
-    "MOVE": ["go", "walk", "move", "enter", "exit", "out"],
+    "MOVE": ["go", "walk", "move", "enter", "exit", "out", "approach"],
     "TAKE": ["take", "grab", "pick"],
-    "EXAMINE": ["examine", "look", "inspect"],
+    "EXAMINE": ["examine", "look", "inspect", "touch"],
     "USE": ["put", "place", "insert", "turn", "push", "pull", "open" ]
   }
 }
