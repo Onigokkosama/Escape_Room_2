@@ -11,5 +11,7 @@
     "actions": ["examine", "move", "use"]
   },
 
+  "front_door": 
+
   
 }
