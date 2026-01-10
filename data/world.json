@@ -7,16 +7,34 @@
   "rooms": {
     "entrance": {
       "name_key": "room.entrance.name",
-      "description_key": "room.entrance.description",
+      "description_key": {
+        "first": "room.entrance.first.description",
+        "revisit": {
+          "when": "entrance_visited",
+          "key": "room.entrance.revisit.description"
+        }
+      },
       "exits": {
-        "left": "dining_room",
-        "right": {
+        "north": {
           "to": "dining_room",
+          "aliases": {
+             "en": ["big door", "double door", "big", "bigger"],
+             "it": ["porta grande", "porta a doppio battente", "grande"]
+          }
+        },
+        "south": {
+          "to": "master_bedroom",
           "blocked_by": "tapestry"
         },
-        "front": "kitchen"
+        "east": {
+          "to": "kitchen",
+          "aliases": {
+             "en": ["big door", "double door", "big", "bigger"],
+             "it": ["porta grande", "porta a doppio battente", "grande"]
+          }
+        },
       }
-      "objects": ["entrance_door","decorations", "tapestry","master_door", "Merlin", "Kilgharrah"]
+      "objects": ["front_door", "decorations", "tapestry","master_door", "Merlin", "Kilgharrah"]
     },
 
     "dining_room": {
@@ -26,7 +44,7 @@
         "south": "entrance",
         "east": "north_hallway"
       }
-      "objects": ["fireplace_on", "round_table", "decorations", "library_key"]
+      "objects": ["fireplace_on", "fireplace_off", "round_table", "decorations", "library_key"]
     },
 
     "north_hallway": {
