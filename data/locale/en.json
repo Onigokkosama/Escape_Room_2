@@ -30,7 +30,32 @@
     ]
 
     ,"room.dining.name": "Dining Room",
-    "room.dining.description": 
+    "room.dining.first.description": [
+      "You walk through the door and find yourself in a large room. The center is occupied by a huge round table.",
+      "The walls are adorned by decorations similar to the ones you’ve already seen, but your attention is immediately captured by the big fireplace towering along one of them:",
+      "It is, impossibly, lit."
+    ],
+
+    "room.dining.revisit.description": [
+      "You’re back in the room with the round table and the lit fireplace.",
+      "Before, you were too shocked to really notice, but now you can immediately feel the difference on your skin.",
+      "With the fire going, the temperature is higher than the rest of the house and the room feels cozier, suspended in time more than abandoned, like at any moment more people will join, sit at the table and fill it with laugher and conversations."
+    ],
+
+    "room.dining.conditional.description": [
+      "You walk in the room with the round table. It sits large and imposing in the center.",
+      "You don’t see anything different, eccept the light and warmth given by the once-lit fireplace are now gone.",
+      "You can’t help but feel a cold shiver shake your whole body.",
+      "You really miss the comforting presence of the fire."
+    ],
+
+    "room.master.bedroom.name": "Master Bedroom",
+    "room.master.bedroom.description":
+
+
+
+
+    
   },
 
   #OBJECTS
