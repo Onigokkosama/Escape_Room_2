@@ -9,11 +9,13 @@
       "name_key": "room.entrance.name",
       "description_key": {
         "first": "room.entrance.first.description",
-        "revisit": {
-          "when": "entrance_visited",
-          "key": "room.entrance.revisit.description"
+        "default": "room.entrance.revisit.description",
+        "condition": {
+          "if": "tapestry_moved",
+          "key": "room.entrance.conditional.description"
         }
-      },
+      }
+    },
       "exits": {
         "north": {
           "to": "dining_room",
@@ -39,11 +41,18 @@
 
     "dining_room": {
       "name_key": "room.dining.name",
-      "description_key": "room.dining.description",
+      "description_key": {
+        "first": "room.dining.first.description",
+        "default": "room.dining.revisit.description",
+        "condition": {
+          "if": "fireplace_off",
+          "key": "room.dining.conditional.description"
+        }  
+      },
       "exits": {
         "south": "entrance",
         "east": "north_hallway"
-      }
+      },
       "objects": ["fireplace_on", "fireplace_off", "round_table", "decorations", "library_key"]
     },
 
