@@ -31,8 +31,8 @@
         "east": {
           "to": "kitchen",
           "aliases": {
-             "en": ["big door", "double door", "big", "bigger"],
-             "it": ["porta grande", "porta a doppio battente", "grande"]
+             "en": ["small door", "small", "smaller"],
+             "it": ["porta piccola", "piccola"]
           }
         },
       }
@@ -99,10 +99,22 @@
       "name_key": "room.master.bedroom.name",
       "description_key": "room.master.bedroom.description",
       "exits": {
-         "north": "entrance",
-         "east": "south_hallway"
+         "north": {
+           "to": "entrance",
+           "aliases": {
+             "en": ["tapestry"],
+             "it": ["arazzo"]
+           }
+         },
+         "east": {
+           "to": "south_hallway",
+           "aliases": {
+             "en": ["small door", "wooden door", "wooden", "inconspicuous", "servants door", "door"],
+             "it": ["porta di legno", "servitù", "nascosta", "piccola", "porta"]
+           }
+         }
         }
-      "objects": ["bed", "closet", "fireplace_off", "desk_1", "bedroom_key"]
+      "objects": ["bed", "chess_set", "closet", "desk_1", "parchment", "bedroom_key"]
       },
         
     "south_hallway": {
