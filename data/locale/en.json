@@ -50,7 +50,14 @@
     ],
 
     "room.master.bedroom.name": "Master Bedroom",
-    "room.master.bedroom.description":
+    "room.master.bedroom.description": [
+      "Moving past the entryway the tapestry was covering, you enter a large bedroom.", 
+      "It’s dusty - the stale air that seems to permeate the whole house now barely noticeable to you - but tidy.", 
+      "A closet sits in one corner. The King-size bed is made, facing the room’s fireplace. In front of it, two armchairs with a chess set placed between them.", 
+      "There are curtains open and orderly tied beside the window and, positioned so that it could make use of the natural light, an old, fancy desk.", 
+      "Candles – some half consumed, some almost new – are dotting the room walls.", 
+      "In a corner there’s a small, inconspicuous wooden door. You could easily believe it used to be reserved for servants to move around, once upon a time."
+    ],
 
 
 
