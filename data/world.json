@@ -155,8 +155,21 @@
       "name_key": "room.kitchen.name",
       "description_key": "room.kitchen.description",
       "exits": {
-         "east": "main_hallway"
+         "east": {
+           "to": "main_hallway",
+           "aliases": {
+             "en": [],
+             "it": []
+           }
+         }, 
+        "west": {
+          "to": "entrance",
+          "aliases": {
+            "en": [],
+            "it": []
+          }
         }
+      },
       "objects": ["stove", "tables_k","Excalibur", "bucket"]
       },
 
