@@ -153,7 +153,13 @@
 
      "kitchen": {
       "name_key": "room.kitchen.name",
-      "description_key": "room.kitchen.description",
+      "description_key": {
+        "first": "room.kitchen.description",
+        "condition": {
+          "if": "Excalibur_taken",
+          "key": "room.kitchen.swordless.description"
+        }
+      },
       "exits": {
          "east": {
            "to": "main_hallway",
