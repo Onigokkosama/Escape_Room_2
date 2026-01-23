@@ -115,7 +115,7 @@
          }
         }
       "objects": ["bed", "chess_set", "closet", "desk_1", "parchment", "bedroom_key"]
-      },
+    },
         
     "south_hallway": {
       "name_key": "room.south.hallway.name",
@@ -158,20 +158,20 @@
          "east": {
            "to": "main_hallway",
            "aliases": {
-             "en": [],
-             "it": []
+             "en": ["bigger door", "bigger", "decorated door", "decorated", "stained glass door"],
+             "it": ["porta grande", "più grande", "grande", "decorata", "porta col vetro", "vetro decorato"]
            }
          }, 
         "west": {
           "to": "entrance",
           "aliases": {
-            "en": [],
-            "it": []
+            "en": ["small door", "small", "smaller"],
+            "it": ["porta piccola", "piccola"]
           }
         }
       },
-      "objects": ["stove", "tables_k","Excalibur", "bucket"]
-      },
+      "objects": ["sink", "tables_k","Excalibur", "bucket"]
+    },
 
     "east_hallway": {
       "name_key": "room.east.hallway.name",
