@@ -50,8 +50,20 @@
         }  
       },
       "exits": {
-        "south": "entrance",
-        "east": "north_hallway"
+        "south": {
+          "to":  "entrance",
+          "aliases": {
+             "en": ["big door", "double door", "big", "bigger"],
+             "it": ["porta grande", "porta a doppio battente", "grande"] 
+          }
+        },
+        "east": {
+          "to": "north_hallway",
+          "aliases": {
+            "en": ["small door", "decorated door", "small", "smaller", "decorated"],
+            "it": ["porta piccola", "porta decorata", "più piccola", "decorata"] 
+          }
+        }
       },
       "objects": ["fireplace_on", "fireplace_off", "round_table", "decorations", "library_key"]
     },
@@ -60,13 +72,31 @@
       "name_key": "room.north.hallway.name",
       "description_key": "room.north.hallway.description",
       "exits": {
-        "west": "dining_room",
+        "west": {
+          "to": "dining_room",
+          "aliases": {
+            "en": ["small door", "decorated door", "wooden door", "wood door", "small", "smaller", "decorated"],
+            "it": ["porta piccola", "porta decorata", "porta di legno", "più piccola", "decorata", "di legno"] 
+          }
+        },
         "east": {
           "to":"2nd_bedroom",
           "door": "bedroom_door",
-          "requires": "bedroom_key" },
-        "south": "main_hallway"
+          "requires": "bedroom_key",
+          "aliases": {
+            "en": ["pointed arch door", "pointed", "arch", "arched"],
+            "it": ["porta con arco a sesto acuto", "arcuata", "ad arco"]
+          }
+        },
+        "south": {
+          "to": "main_hallway",
+          "aliases": {
+            "en": ["other hallway", "longer hallway", "longer", "hallway"],
+            "it": ["altro corridoio", "corridoio più lungo", "lungo", "corridoio"]
+          }
         }
+      },
+        
       "objects": ["bedroom_door"]
     },
 
@@ -90,7 +120,7 @@
       "name_key": "room.bathroom.name",
       "description_key": "room.bathroom.description",
       "exits": {
-         "east": "south_hallway"
+         "south": "south_hallway"
         }
       "objects": ["bathtub", "mirror"]
       },
