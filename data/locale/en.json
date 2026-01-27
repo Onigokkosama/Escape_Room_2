@@ -32,6 +32,7 @@
     ,"room.dining.name": "Dining Room",
     "room.dining.first.description": [
       "You walk through the door and find yourself in a large room. The center is occupied by a huge round table.",
+      "A big, double door on one side, a smaller one on the adiacent wall, the wood intricately decorated with vines.",
       "The walls are adorned by decorations similar to the ones you’ve already seen, but your attention is immediately captured by the big fireplace towering along one of them:",
       "It is, impossibly, lit."
     ],
@@ -39,14 +40,17 @@
     "room.dining.revisit.description": [
       "You’re back in the room with the round table and the lit fireplace.",
       "Before, you were too shocked to really notice, but now you can immediately feel the difference on your skin.",
-      "With the fire going, the temperature is higher than the rest of the house and the room feels cozier, suspended in time more than abandoned, like at any moment more people will join, sit at the table and fill it with laugher and conversations."
+      "With the fire going, the temperature is higher than the rest of the house and the room feels cozier, suspended in time more than abandoned,",
+      "like at any moment more people will join, sit at the table and fill it with laugher and conversations.",
+      "You subconsciously look at the double door, then at the decorated one. Unsurprisingly, no one comes in."
     ],
 
     "room.dining.conditional.description": [
       "You walk in the room with the round table. It sits large and imposing in the center.",
       "You don’t see anything different, eccept the light and warmth given by the once-lit fireplace are now gone.",
       "You can’t help but feel a cold shiver shake your whole body.",
-      "You really miss the comforting presence of the fire."
+      "You really miss the comforting presence of the fire.",
+      "Helpless, you glance at the double door and the decorated one, wondering what should be the next step to find your way out of this place."
     ],
 
     "room.master.bedroom.name": "Master Bedroom",
@@ -57,6 +61,38 @@
       "There are curtains open and orderly tied beside the window and, positioned so that it could make use of the natural light, an old, fancy desk.", 
       "Candles – some half consumed, some almost new – are dotting the room walls.", 
       "In a corner there’s a small, inconspicuous wooden door. You could easily believe it used to be reserved for servants to move around, once upon a time."
+    ],
+
+
+    "room.kitchen.name": "Kitchen",
+    "room.kitchen.description": [
+      "You cross the threshold. The room you find yourself in is unmistakably a kitchen,",
+      "with workbenches lining the walls, interspersed with large stoves, washbasins, and ovens.",
+      "On one of the workbenches, something catches the light for just a moment, standing out among the dust and neglect.",
+      "The washbasins crusted with old residue and abandoned utensils, their metal dull and dry.",
+      "On opposite walls, two doors face each other:",
+      " a small one, almost merging with the surroundings, and a slightly bigger one, its centre occupied by stained glass depicting a decorated cup."
+    ],
+
+    "room.kitchen.swordless.description": [
+      "You enter the kitchen again. Your eyes reflexively go to the workbench on which you found the sword,",
+      "as if something else - more useful for your current situation - might have accidentally been missed while you were distracted by your first finding.", 
+      "Sadly, you’re not so lucky. Everything is as you left it before: the workbenches, stoves, washbasins, ovens, the small door and the decorated one."
+    ],
+
+    
+    "room.bathroom.name": "Bathroom",
+    "room.bathroom.description": [
+      "Leaving the hallway behind, you enter in a bathroom. It looks normal, no pompous decoration or fixtures:", 
+      "there’s a little cabinet by the door, a mirror above the sink, and a bathtub."
+    ],
+
+
+    "room.north.hallway.name": "North Hallway",
+    "room.north.hallway.description": [
+      "The hallway you see in front of you is short, not particularly adorned.", 
+      "On one end, a decorated door leads to the room with the round table.",
+      "At the opposite end sits a pointed arch door. Following that wall, you can see an open to another, longer hallway."
     ],
 
 
