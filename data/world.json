@@ -34,8 +34,8 @@
              "en": ["small door", "small", "smaller"],
              "it": ["porta piccola", "piccola"]
           }
-        },
-      }
+        }
+      },
       "objects": ["front_door", "decorations", "tapestry","master_door", "Merlin", "Kilgharrah"]
     },
 
@@ -104,24 +104,53 @@
       "name_key": "room.main.hallway.name",
       "description_key": "room.main.hallway.description",
       "exits": {
-        "west": "kitchen",
-        "south": "south_hallway",
+        "west": {
+          "to": "kitchen",
+          "aliases": {
+            "en": ["decorated door", "stain-glassed", "stain glassed door"],
+            "it": [ "porta col vetro", "vetro decorato", "porta decorata"]
+          }
+        },
+        "south": {
+          "to": "south_hallway",
+          "aliases": {
+            "en": ["statue corner", "statue hallway", "statue"],
+            "it": ["angolo con la statua", "corridoio con la statua", "statua"]
+          }
+        },
         "south_east": {
             "to": "library",
             "door": "library_door",
-            "requires": "library_key" },
-        "east": "east_hallway",
-        "north": "north_hallway"
-        }
-      "objects": ["library_door"]
+            "requires": "library_key",
+            "aliases": {
+              "en": ["double door", "heavy door", "heavy"],
+              "it": ["porta a doppio battente", "pesante", "doppio battente"]
+            }
+        },
+        "east": {
+          "to": "east_hallway",
+          "aliases": {
+            "en": ["gap", "hidden hallway", "hidden", "additional"],
+            "it": ["corridoio nascosto", "nascosto", "ulteriore corridoio"]
+          }
+        },
+        "north": {
+          "to": "north_hallway",
+          "aliases": {
+            "en": ["room corner", "corner with the room"],
+            "it": ["angolo con la stanza", "stanza all'angolo"]
+          }
+        } 
+      },
+      "objects": ["library_door", "Leon"]
       },
 
     "bathroom": {
       "name_key": "room.bathroom.name",
       "description_key": "room.bathroom.description",
       "exits": {
-         "south": "south_hallway"
-        }
+        "south": "south_hallway"
+      },
       "objects": ["bathtub", "mirror"]
       },
 
@@ -143,7 +172,7 @@
              "it": ["porta di legno", "servitù", "nascosta", "piccola", "porta"]
            }
          }
-        }
+        },
       "objects": ["bed", "chess_set", "closet", "desk_1", "parchment", "bedroom_key"]
     },
         
@@ -165,10 +194,10 @@
          "north": {
            "to":"secret_room",
            "blocked_by": "bookshelf",
-           "requires":"magic_book",
+           "requires":"magic_book"
          },
          "west": "main_hallway"
-        }
+        },
       "objects": ["tables_l", "bookshelf"]
       },
 
