@@ -96,6 +96,15 @@
     ],
 
 
+    "room.main.hallway.name": "Main Hallway",
+    "room.main.hallway.description": [
+      "This hallway is longer, a few decorations adorn the walls.", 
+      "It seems to meet two other hallways at its ends – one corner occupied by a room, the other by a statue –", 
+      "and two doors stand asymmetrical but facing each other, a stain-glassed one with the image of a cup, and a heavy looking double door.", 
+      "Taking a closer look, you can actually see that in between the room the double door lead to and the corner room there’s a small gap, possibly an additional, more hidden hallway."
+    ],
+
+
 
 
     
