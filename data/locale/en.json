@@ -105,7 +105,56 @@
     ],
 
 
+    "room.south.hallway.name": "South Hallway",
+    "room.south.hallway.description": [
+      "You’re in a narrow hallway. On one side, it’s closed by a small, inconspicuous wooden door.",
+      "An arched one in satin glass opens to another room while, next to it, the hallway ends in a corner occupied by a big statue of a knight."
+    ],
 
+
+    "room.east.hallway.name": "East Hallway",
+    "room.east.hallway.description": [
+      "The gap you saw between the main hallway’s wall does indeed open to another short corridor.",
+      "On the side, almost merging with the stone wall, you notice there’s actually what looks like a door, but at the end of the corridor is what steals your attention:",
+      "a big door very similar to the one in the entrance, from where you guess you entered the house."
+    ],
+
+    "room.east.hallway.side": [
+      "You exit the room to a short corridor and the door you walked through seemlessly merges with the stone wall.",
+      "Following the length of the corridor, you see it meet the main hallway on one side.",
+      "On the other, a big door that looks exactly like the one in the entrance from where you guess you entered the house catches your attention. "
+    ],
+
+
+
+    "room.bedroom.name": "Second Bedroom",
+    "room.bedroom.description": [
+      "The room you enter is a smaller, cozier version of the big bedroom where you found the key you just used.",
+      "A double bed occupies almost the whole length of one of the walls, and in front of it there's a large desk on which you see a small pile of books and scattered papers.",
+      "You see that the door you entered from is not the only one present: next to the bed another one would go unnoticed if not for a big metal handle."
+    ],
+
+
+
+    "room.library.name": "Library",
+    
+    "room.library.description": [
+      "The unlocked double door opens to what has to be the largest room in the house.",
+      "The entirety of the perimeter is covered by solid, heavy bookshelves full of old books.",
+      "Occupying the rest of the space you see a couple of small tables surrounded by comfortable and elegant looking plush seats and chairs."
+    ],
+
+
+
+    "room.secret.name": "Secret Room",
+    
+    "room.secret.description": [
+      "The bookshelf opens to a dark space.",
+      "Initially, you can’t make out any detail about the space. Then, the light from the library seems to get caught by a small pearl on the cealing.",
+      "Not far in the distance, another faint light starts to glow as if in response. Soon after, more and more pearls glow, connecting and illuminating the surroundings.",
+      "It becomes clearer and clearer that this is a small room.",
+      "It appears barren, save for the glowing pearls - shining in a mesmerizing brilliance, like a miniscule Milky Way - and a statue, standing lone guard at the opposite end of the room."
+    ]
 
     
   },
