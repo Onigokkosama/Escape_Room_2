@@ -11,7 +11,7 @@
         "first": "room.entrance.first.description",
         "default": "room.entrance.revisit.description",
         "condition": {
-          "if": "tapestry_moved",
+          "if": "tapestry_on",
           "key": "room.entrance.conditional.description"
         }
       }
