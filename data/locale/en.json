@@ -26,7 +26,7 @@
     "room.entrance.revisit.description": [
       "You are back at the entrance. The decorations start to feel familiar to you, almost comforting in the confused chaos in your mind.", 
       "The front door, the double door on its side and the smaller one are where you left them, so is the young man’s statue and the big dragon head on the wall in front of him.",
-      "The tapestry that used to cover the big bedroom is hanging precariously, ready to surrender itself to gravity and time, but still valiantly fighting to stay in place."
+      "The tapestry that used to cover the Master Bedroom is hanging precariously, ready to surrender itself to gravity and time, but still valiantly fighting to stay in place."
     ]
 
     ,"room.dining.name": "Dining Room",
@@ -53,8 +53,8 @@
       "Helpless, you glance at the double door and the decorated one, wondering what should be the next step to find your way out of this place."
     ],
 
-    "room.master.bedroom.name": "Master Bedroom",
-    "room.master.bedroom.description": [
+    "room.master_bedroom.name": "Master Bedroom",
+    "room.master_bedroom.description": [
       "Moving past the entryway the tapestry was covering, you enter a large bedroom.", 
       "It’s dusty - the stale air that seems to permeate the whole house now barely noticeable to you - but tidy.", 
       "A closet sits in one corner. The King-size bed is made, facing the room’s fireplace. In front of it, two armchairs with a chess set placed between them.", 
@@ -88,16 +88,16 @@
     ],
 
 
-    "room.north.hallway.name": "North Hallway",
-    "room.north.hallway.description": [
+    "room.north_hallway.name": "North Hallway",
+    "room.north_hallway.description": [
       "The hallway you see in front of you is short, not particularly adorned.", 
       "On one end, a decorated door leads to the room with the round table.",
       "At the opposite end sits a pointed arch door. Following that wall, you can see an open to another, longer hallway."
     ],
 
 
-    "room.main.hallway.name": "Main Hallway",
-    "room.main.hallway.description": [
+    "room.main_hallway.name": "Main Hallway",
+    "room.main_hallway.description": [
       "This hallway is longer, a few decorations adorn the walls.", 
       "It seems to meet two other hallways at its ends – one corner occupied by a room, the other by a statue –", 
       "and two doors stand asymmetrical but facing each other, a stain-glassed one with the image of a cup, and a heavy looking double door.", 
@@ -105,21 +105,21 @@
     ],
 
 
-    "room.south.hallway.name": "South Hallway",
-    "room.south.hallway.description": [
+    "room.south_hallway.name": "South Hallway",
+    "room.south_hallway.description": [
       "You’re in a narrow hallway. On one side, it’s closed by a small, inconspicuous wooden door.",
       "An arched one in satin glass opens to another room while, next to it, the hallway ends in a corner occupied by a big statue of a knight."
     ],
 
 
-    "room.east.hallway.name": "East Hallway",
-    "room.east.hallway.description": [
+    "room.east_hallway.name": "East Hallway",
+    "room.east_hallway.description": [
       "The gap you saw between the main hallway’s wall does indeed open to another short corridor.",
       "On the side, almost merging with the stone wall, you notice there’s actually what looks like a door, but at the end of the corridor is what steals your attention:",
       "a big door very similar to the one in the entrance, from where you guess you entered the house."
     ],
 
-    "room.east.hallway.side": [
+    "room.east_hallway.side": [
       "You exit the room to a short corridor and the door you walked through seemlessly merges with the stone wall.",
       "Following the length of the corridor, you see it meet the main hallway on one side.",
       "On the other, a big door that looks exactly like the one in the entrance from where you guess you entered the house catches your attention. "
