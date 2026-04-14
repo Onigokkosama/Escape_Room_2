@@ -1,4 +1,4 @@
-# Avventura-Testuale-Python-
+# "Escape Room 2" (Avventura Testuale in Phython)
 - Motore di avventura testuale modulare
 - Supporto multi-lingua (IT/EN)
 - Separazione chiara tra logica, dati e rendering
