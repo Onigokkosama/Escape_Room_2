@@ -69,7 +69,7 @@
       "You cross the threshold. The room you find yourself in is unmistakably a kitchen,",
       "with workbenches lining the walls, interspersed with large stoves, washbasins, and ovens.",
       "On one of the workbenches, something catches the light for just a moment, standing out among the dust and neglect.",
-      "The washbasins crusted with old residue and abandoned utensils, their metal dull and dry.",
+      "The washbasins are large, various objects scattered in them, forgotten.",
       "On opposite walls, two doors face each other:",
       " a small one, almost merging with the surroundings, and a slightly bigger one, its centre occupied by stained glass depicting a decorated cup."
     ],
@@ -83,8 +83,8 @@
     
     "room.bathroom.name": "Bathroom",
     "room.bathroom.description": [
-      "Leaving the hallway behind, you enter in a bathroom. It looks normal, no pompous decoration or fixtures:", 
-      "there’s a little cabinet by the door, a mirror above the sink, and a bathtub."
+      "Leaving the hallway behind, you enter in a bathroom. It looks normal, no pompous decoration or fixtures.", 
+      "The most prominent thing is a spacious bathtub."
     ],
 
 
@@ -143,6 +143,7 @@
       "The entirety of the perimeter is covered by solid, heavy bookshelves full of old books.",
       "Occupying the rest of the space you see a couple of small tables surrounded by comfortable and elegant looking plush seats and chairs."
     ],
+    "room.library.conditional.description": "You enter the library again. The double door remains open, as does the bookself hiding the secret room.",
 
 
 
@@ -154,7 +155,13 @@
       "Not far in the distance, another faint light starts to glow as if in response. Soon after, more and more pearls glow, connecting and illuminating the surroundings.",
       "It becomes clearer and clearer that this is a small room.",
       "It appears barren, save for the glowing pearls - shining in a mesmerizing brilliance, like a miniscule Milky Way - and a statue, standing lone guard at the opposite end of the room."
+    ],
+
+    "room.secret.conditional.description": [
+      "You can't help but wait expectamtly for the ceiling to light up, mesmerized by the small lights.",
+      "Once illuminated, the room appears, unsurprisingly, unchanged. The statue unmoving at the far end of it."
     ]
+    
 
     
   },
@@ -183,7 +190,7 @@
     "MOVE": ["go", "walk", "move", "enter", "exit", "out", "approach"],
     "TAKE": ["take", "grab", "pick"],
     "EXAMINE": ["examine", "look", "inspect", "touch"],
-    "USE": ["put", "place", "insert", "turn", "push", "pull", "open" ]
+    "USE": ["put", "place", "insert", "turn", "push", "pull", "open", "give", "fill" ]
   }
 }
 
