@@ -25,7 +25,7 @@
 | `renderer.py`        | Mostra output e risolve chiavi per la lingua selezionata      | In costruzione |
 | `data/world.json`    | Definizione delle stanze, oggetti, eventi                     | In costruzione |
 | `data/locale/it.json`| Traduzioni italiane                                           | In costruzione |
-| `data/locale/en.json`| Traduzioni inglesi                                           | In costruzione |
+| `data/locale/en.json`| Traduzioni inglesi                                           | Completo |
 
 ---
 
