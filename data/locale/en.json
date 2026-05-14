@@ -1,0 +1,198 @@
+# English translation
+
+{
+  "language": "en",
+
+ #ROOMS
+  
+  "rooms": {
+    
+    "room.entrance.name": "Entrance",
+    "room.entrance.first.description": [
+      "You are standing at the entrance of what looks like an abandoned house. The air is stale, and silence surrounds you. You look around, disoriented.",
+      "The furniture is dusty and dilapidated, but suggests ancient welth. Behind you there’s the door you suppose you came from. You see two more: a big, double door on the side, and a smaller one, further into the room." ,
+      "The walls and the room as a whole are elegantly decorated with emblems, carpets, hunting trophies – including a dragon head so realistic it feels like it could spit fire at any moment - and statues of different dimentions.",
+      "The biggest of the lot, and the one in the best conditions, is a life-size piece representing a young man with a staff. Along one wall, a thick tapestry hangs from ceiling to floor.",
+      "What is this place? How and why are you even here? Your head feels fuzzy when you try to focus."
+    ],
+    
+    "room.entrance.conditional.revisit.description": [
+      "You find yourself in the entrance again. Nothing has changed from when you were here before:", 
+      "You see the decorations on the walls, the mesmerazing dragon head and the young man’s statue in front of it.",
+      "The front door, the smaller door opposite to it and the double door on the wall beside.",
+      "The thick tapestry covering part of the remaining wall."
+    ],
+
+    "room.entrance.revisit.description": [
+      "You are back at the entrance. The decorations start to feel familiar to you, almost comforting in the confused chaos in your mind.", 
+      "The front door, the double door on its side and the smaller one are where you left them, so is the young man’s statue and the big dragon head on the wall in front of him.",
+      "The tapestry that used to cover the Master Bedroom is hanging precariously, ready to surrender itself to gravity and time, but still valiantly fighting to stay in place."
+    ]
+
+    ,"room.dining.name": "Dining Room",
+    "room.dining.first.description": [
+      "You walk through the door and find yourself in a large room. The center is occupied by a huge round table.",
+      "A big, double door on one side, a smaller one on the adiacent wall, the wood intricately decorated with vines.",
+      "The walls are adorned by decorations similar to the ones you’ve already seen, but your attention is immediately captured by the big fireplace towering along one of them:",
+      "It is, impossibly, lit."
+    ],
+
+    "room.dining.revisit.description": [
+      "You’re back in the room with the round table and the lit fireplace.",
+      "Before, you were too shocked to really notice, but now you can immediately feel the difference on your skin.",
+      "With the fire going, the temperature is higher than the rest of the house and the room feels cozier, suspended in time more than abandoned,",
+      "like at any moment more people will join, sit at the table and fill it with laugher and conversations.",
+      "You subconsciously look at the double door, then at the decorated one. Unsurprisingly, no one comes in."
+    ],
+
+    "room.dining.conditional.description": [
+      "You walk in the room with the round table. It sits large and imposing in the center.",
+      "You don’t see anything different, eccept the light and warmth given by the once-lit fireplace are now gone.",
+      "You can’t help but feel a cold shiver shake your whole body.",
+      "You really miss the comforting presence of the fire.",
+      "Helpless, you glance at the double door and the decorated one, wondering what should be the next step to find your way out of this place."
+    ],
+
+    "room.master_bedroom.name": "Master Bedroom",
+    "room.master_bedroom.description": [
+      "Moving past the entryway the tapestry was covering, you enter a large bedroom.", 
+      "It’s dusty - the stale air that seems to permeate the whole house now barely noticeable to you - but tidy.", 
+      "A closet sits in one corner. The King-size bed is made, facing the room’s fireplace. In front of it, two armchairs with a chess set placed between them.", 
+      "There are curtains open and orderly tied beside the window and, positioned so that it could make use of the natural light, an old, fancy desk.", 
+      "Candles – some half consumed, some almost new – are dotting the room walls.", 
+      "In a corner there’s a small, inconspicuous wooden door. You could easily believe it used to be reserved for servants to move around, once upon a time."
+    ],
+
+
+    "room.kitchen.name": "Kitchen",
+    "room.kitchen.description": [
+      "You cross the threshold. The room you find yourself in is unmistakably a kitchen,",
+      "with workbenches lining the walls, interspersed with large stoves, washbasins, and ovens.",
+      "On one of the workbenches, something catches the light for just a moment, standing out among the dust and neglect.",
+      "The washbasins are large, various objects scattered in them, forgotten.",
+      "On opposite walls, two doors face each other:",
+      " a small one, almost merging with the surroundings, and a slightly bigger one, its centre occupied by stained glass depicting a decorated cup."
+    ],
+
+    "room.kitchen.swordless.description": [
+      "You enter the kitchen again. Your eyes reflexively go to the workbench on which you found the sword,",
+      "as if something else - more useful for your current situation - might have accidentally been missed while you were distracted by your first finding.", 
+      "Sadly, you’re not so lucky. Everything is as you left it before: the workbenches, stoves, washbasins, ovens, the small door and the decorated one."
+    ],
+
+    
+    "room.bathroom.name": "Bathroom",
+    "room.bathroom.description": [
+      "Leaving the hallway behind, you enter in a bathroom. It looks normal, no pompous decoration or fixtures.", 
+      "The most prominent thing is a spacious bathtub."
+    ],
+
+
+    "room.north_hallway.name": "North Hallway",
+    "room.north_hallway.description": [
+      "The hallway you see in front of you is short, not particularly adorned.", 
+      "On one end, a decorated door leads to the room with the round table.",
+      "At the opposite end sits a pointed arch door. Following its wall, you can see an open to another, longer hallway."
+    ],
+
+
+    "room.main_hallway.name": "Main Hallway",
+    "room.main_hallway.description": [
+      "This hallway is longer, a few decorations adorn the walls.", 
+      "It seems to meet two other hallways at its ends – one corner occupied by a room, the other by a statue –", 
+      "and two doors stand asymmetrical but facing each other, a stain-glassed one with the image of a cup, and a heavy looking double door.", 
+      "Taking a closer look, you can actually see that the wall in front of the stain-glassed door opens to a small gap. Possibly an additional, more hidden, hallway."
+    ],
+
+
+    "room.south_hallway.name": "South Hallway",
+    "room.south_hallway.description": [
+      "You’re in a narrow hallway. On one side, it’s closed by a small, inconspicuous wooden door.",
+      "An arched one in satin glass opens to another room while, next to it, the hallway ends in a corner occupied by a big statue of a knight."
+    ],
+
+
+    "room.east_hallway.name": "East Hallway",
+    "room.east_hallway.description": [
+      "The gap you saw between the main hallway’s wall does indeed open to another short corridor.",
+      "On the side, almost merging with the stone wall, you notice there’s actually what looks like a door, but at the end of the corridor is what steals your attention:",
+      "a big door very similar to the one in the entrance."
+    ],
+
+    "room.east_hallway.side": [
+      "You exit the room to a short corridor and the door you walked through seemlessly merges with the stone wall.",
+      "Following the length of the corridor, you see it meet the main hallway on one side.",
+      "On the other, a big door that looks exactly like the one in the entrance from where you guess you entered the house catches your attention. "
+    ],
+
+
+
+    "room.bedroom.name": "Second Bedroom",
+    "room.bedroom.description": [
+      "The room you enter is a smaller, cozier version of the big bedroom where you found the key you just used.",
+      "A double bed occupies almost the whole length of one of the walls, and in front of it there's a large desk on which you see a small pile of books and scattered papers.",
+      "You see that the door you entered from is not the only one present: next to the bed another one would go unnoticed if not for a big metal handle."
+    ],
+
+
+
+    "room.library.name": "Library",
+    
+    "room.library.description": [
+      "The unlocked double door opens to what has to be the largest room in the house.",
+      "The entirety of the perimeter is covered by solid, heavy bookshelves full of old books.",
+      "Occupying the rest of the space you see a couple of small tables surrounded by comfortable and elegant looking plush seats and chairs."
+    ],
+    "room.library.conditional.description": "You enter the library again. The double door remains open, as does the bookself hiding the secret room.",
+
+
+
+    "room.secret.name": "Secret Room",
+    
+    "room.secret.description": [
+      "The bookshelf opens to a dark space.",
+      "Initially, you can’t make out any detail about the space. Then, the light from the library seems to get caught by a small pearl on the cealing.",
+      "Not far in the distance, another faint light starts to glow as if in response. Soon after, more and more pearls glow, connecting and illuminating the surroundings.",
+      "It becomes clearer and clearer that this is a small room.",
+      "It appears barren, save for the glowing pearls - shining in a mesmerizing brilliance, like a miniscule Milky Way - and a statue, standing lone guard at the opposite end of the room."
+    ],
+
+    "room.secret.conditional.description": [
+      "You can't help but wait expectamtly for the ceiling to light up, mesmerized by the small lights.",
+      "Once illuminated, the room appears, unsurprisingly, unchanged. The statue unmoving at the far end of it."
+    ]
+    
+
+    
+  },
+
+  #OBJECTS
+  
+  "objects": {
+    
+  },
+
+  #DOORS
+  
+  "doors": {
+    
+  },
+
+  #SYSTEM
+  
+  "system": {
+    
+  },
+
+  # ACTIONS
+
+  "verbs": {
+    "MOVE": ["go", "walk", "move", "enter", "exit", "out", "approach"],
+    "TAKE": ["take", "grab", "pick"],
+    "EXAMINE": ["examine", "look", "inspect", "touch"],
+    "USE": ["put", "place", "insert", "turn", "push", "pull", "open", "give", "fill" ]
+  }
+}
+
+
+
