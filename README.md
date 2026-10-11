@@ -1,4 +1,4 @@
-# Avventura-Testuale-Python-
+# "Escape Room 2" (Avventura Testuale in Phython)
 - Motore di avventura testuale modulare
 - Supporto multi-lingua (IT/EN)
 - Separazione chiara tra logica, dati e rendering
@@ -25,7 +25,7 @@
 | `renderer.py`        | Mostra output e risolve chiavi per la lingua selezionata      | In costruzione |
 | `data/world.json`    | Definizione delle stanze, oggetti, eventi                     | In costruzione |
 | `data/locale/it.json`| Traduzioni italiane                                           | In costruzione |
-| `data/locale/en.json`| Traduzioni inglesi                                           | In costruzione |
+| `data/locale/en.json`| Traduzioni inglesi                                           | Completo |
 
 ---
 
