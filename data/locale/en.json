@@ -169,19 +169,281 @@
   #OBJECTS
   
   "objects": {
+
+            #ENTRANCE
+    "object.front_door.name": "Front Door",
+    "object.front_door.description":["It’s a heavy looking door. Strange symbols are carved into the frame."],
+
+    "object.decorations.name":"Decorations",
+    "object.decorations.description":["Besides the emblems, you see various tapestries depicting knights fighting mythical beasts, some portraits of kings, queens, and other figures.",
+      "You don’t recognise any of these people, but they somehow feel familiar. You imagine these kind of portraits and scenes all resemble each other in some way."
+      ],
+
+    "object.tapestry.name":"Tapestry",
+    "object.tapestry.description": [ "The heavy fabric covers a considerable portion of the wall. You see an intricated collection of scenes, objects and symbols woven into it:", 
+      "at the top, a knight on their horse passing by a young man walking on a small path in the forest, the two headed in opposite directions.", 
+      "From the sides of the image starts an elegant ornamental border, which frames the whole lenght, coming to a close at another scene on the bottom:", 
+      "on what looks like the courtyard of a palace, two figures walk away together, their shoulders bumping.", 
+      "Getting as close as you can to try and discern the middle part, you accidentally lose your balance and put your hands forward to avoid crashing into the wall.", 
+      "Except. While your right hand collides with the wall beside the tapestry and stops you, the left one encounters no further resistance than the thick fabric.", 
+      "It seems there’s a hollow space hidden behind it."
+    ],
+    
+    "object.tapestry.move": [ "You carefully move the tapestry aside, expecting to find a nook protecting what hopefully was a clue on where you are or how to get out. What you find, instead, is the threshold of a room." 
+    ],
+
+    "object.merlin.name":"The Sorcerer",
+    "object.merlin.description": [ "The life-sized statue is an impressive work of art. The clothes and long magic staff so intricately carved, they seemed ready to move with the slightest shift of their owner.", 
+      "The young man’s features so defined and vivid, you could almost see a spark of mischief in his eyes. It’s a bit jarring, the impression it could start talking and moving at any moment."
+    ],
+
+     #FIRST INTERACTION BEFORE ARTHUR
+    "object.melin.talk.1": [ "You can’t help move your hand to touch the statue, almost expecting to find fabric instead of stone.", 
+      "As soon as your fingertips make contact, something surprising does happen, but it's not the texture of the clothes: the statue shifts to look in your direction and starts to talk.",
+      "'Oh, you’re here? Good, how is this round going? Have you talked to my lord yet?'",
+      "You remain silent, completely caught off guard by the fact that a statue just came alive before your very eyes.",
+      "There’s a brief pause in which the statue waits expectently for a reply and then, somehow even more shockingly, it smirks.", 
+      "‘I’ll take that as a no. Well, I fear he’s the only one who can grant you permission to leave, so you better be on your way and find him.’ "
+      
+    ],
+
+    #FIRST INTERACTION BUT YOU ALREADY FOUND ARTHUR SOMEHOW
+    "object.merlin.talk.2": [ "As soon as your fingertips make contact, the statue shifts to look in your direction and starts to talk.",
+      "‘Oh, you’re here? Good, how is this round going? Have you talked to my lord yet?’",
+      "You nod your head and he smiles, looking satisfied.",
+      "‘Well, what are you here for, then? Shouldn’t you already be out?’ he smirks, the impossible sparkle in his eyes heightening like he already knows the answer."
+      
+    ],
+
+    #SECOND INTERACTION (WITH SWORD, NO FLOWER)
+    "object.merlin.talk.3": [ "You offer the sorcerer the sword you found, explaining what the statue of the king requested, and the sorcerer’s expression grows complicated.",
+      "‘Broken? How is that even… never mind, I can indeed create another magical sword, all I need is this,’ he moves the hand holding the sword, ‘and my good friend’s firey breath’ he nods torwards the dragon head on the opposite wall.",
+      "‘But. You see, swords forged with dragon fire are especially powerful, and dangerous. I cannot let it fall in the wrong hands and, even if I was willing to risk it, the Great Dragon would never accept to help.", 
+      "So, I’m afraid I will need you to prove that the person that will receive it is indeed my liege. He will surely be able to provide something to attest his identity.’ With this, the statue stilled completely once again."
+      
+    ],
+
+    #THIRD INTERACTION (WITH SWORD AND FLOWER)
+    "object.merlin.talk.4": [ "The sorcerer comes to life and his eyebrows raise in surprise as he sees the flower in your hand.", 
+      "‘That..’ his voice sounds strange ‘...will do. No one but my lord would know of the significance of the Mortaeus Flower, not enough to use it as identification anyway.’",
+      "( He murmurs something to himself. You’re not able to catch the words, but by the inflection you think it might be some sort of insult. Even so, he’s shaking his head with a small smile.) ",
+      "‘Alright, time to forge a sword then.' With nothing more than a look headed in its direction, the sword slides off your hip and starts to fluctuate in the space in front of the dragon head.", 
+      "Then, the sorcerer starts to speak a language you don’t recognize in a guttural, deep voice. The head of the dragon comes to life. Big, golden eyes blink open as it huffs a puff of black smoke out of its nostrils.",
+      "‘In need of help again, are we, young warlock?’ the dragon sounds amused, and you’re not sure why you find yourself surprised that the dragon can talk. At this point you should have expected it.", 
+      "At your side, the sorcerer – warlock? – chuckles. ‘Yes, old friend. It seems our King is in need of a new sword, worthy of his old one. Will you help me?’",
+      "The dragon looks displeased. ‘You know of the risks and responsibilities it comes with, are you sure of what you are asking?’ At his assent, it let out a resigned sigh.", 
+      "‘Very well’ it says, and opens its mouth a bit wider. Flames envelope the floating sword as it breathes out. When it stops, the sword is alight with a mystical glow that slowly fades away.",
+      "You’re so captivated by the magic display that you completely miss the few words exchanged in soft voices by the statue and the dragon, and the latter closing its eyes and still again, only coming back to your surroundings when the statue addresses you.",
+      "‘You can touch it, it won’t burn.’ the statue says, and you secure it again to your side. ‘Please, make sure to keep it safe until it’s in the hands of its rightful master’ he says gravely.",
+      "‘And,’ he stops and you wait for him to continue, curiosity peaking at the expression on his face.",
+      "‘...if you would,’ he continues eventually ‘tell that dollophead to take care of this one. He won’t get any more. You can tell him I called him that.’ He seems happy at the thought as he shakes his head.", 
+      "Then, for just a split second, a sad look crosses his face, quickly covered by a big smile as the statue bids you goodbye, and resumes his pose once again."
+      
+    ],
+
+    "object.kilgharrah.name":"Great Dragon",
+    "object.kilgharrah.description": ["An uncomfortably realistic mounted head of an enourmous dragon, with bronze scales. Its eyes are closed."]
+
+
+          #DINING ROOM
+    
+    "object.table.name":"Round Table",
+    "object.table.description": [ "The round table in the center of the room could easily fit more than a dozen people.", 
+      "On the edges, sets of runes you’re not able to decipher would seem to act as placemarkers given their position and the space between each set."
+    ],
+
+    "object.fireplace.name":"Fireplace",
+    "object.fireplace.description": [ "The fireplace is so big you could fit inside without even having to try too hard. The sound of the fire crackling, its unmistakable smell and warmth feel out of place in the otherwise silent and abandoned space, but they are nonetheless greatly appreciated.", 
+      "As you watch the flames dance enthralled, you notice the light being reflected by something at the very back.", 
+      "Shifting slightly to get a better look you discover a metal key. Untouched by the fire, but unreachable as long as it stays burning."
+      
+    ],
+
+    "object.fireplace.off": [ "You splash the content of the backet into the cracling fireplace, effectively extinguishing the flames. You immediately mourn their loss, but at least now you’re able to reach for the metal key.", 
+      "It’s heavy and elegant, warm to the touch but not scalding. You decide to put it in your pocket for safekeeping for the time being."
+    ],
+
+    
+    "object.library.key.name": "Library Key",
+    "object.library.key.description": [ "It’s a heavy and elegantly decorated golden key, warm to the touch but not scalding. Probably a match for an equally decorated, golden keyhole."
+      
+    ],
+
+
+              #KITCHEN
+
+    "object.sink.name": "Washbasins",
+    "object.sink.description": ["At a closer look, you see the washbasins are crusted with old residue and littered with abandoned utensils, their metal dull and dry. In one of them, a battered bucket rests on its side."],
+
+    "object.bucket.name": "Bucket",
+    "object.bucket.description": ["An old bucket from the kitchen."],
+    "object.bucket.take": ["You take the bucket from the washbasin. You never know, it might be useful."],
+    "object.bucket.first.use": ["You pick the backet you took from the kitchen and fill it with water from the bathtub. You try to be careful not to spill it as you straighten up."], #IN THE BATHROOM
+      #IF IN THE DINING ROOM = OBJECT.FIREPLACE.OFF
+
+    "object.tables_k.name": "Workbenches",
+    "object.tables_k.description": ["Following the reflection of light you saw upon entering the kitchen, you come closer to the workbanches.", 
+      "On one of them, among other utensils, there’s something that is absolutely not supposed to be just laying around like this: an old, dull sword."], 
+    "object.swordless.tables_k.description": ["Simple wokbenches. Dusty utensils lay abandoned to time on them."], #IF SWORD CHECK == TRUE
+
+    "bject.sword.name": "Old Sword",
+    "object.sword.description": ["An old, blunt sword you found in the kitchen"],
+    "object.sword.take": ["You take the sword and secure it to your side."], #SWORD CHECK = TRUE
+    "object.sword.use": ["You offer the sword you secured at your side to the animated statue of the king, but he just frowns at it, no indication he has any intention of touching it.", 
+      "‘I apologize, my friend, but the kind of sword I need is quite unique and recognizable. The one I used to have was gifted to me by my sorcerer.", 
+      "Maybe you could ask him for help, I hear he is somewhere in this house. Come back to me when you have a way for me to have a reliable sword again, and I’ll give you a way out of here.’ He effectively dismisses you."], #SPECIFIC TO THE SECRET ROOM 
+      #IF WITH MERLIN GO TO MERLIN.TALK.III
+
+
+              #BATHROOM
+
+    "object.bathtub.name":"Bathtub",
+    "object.bathtub.description": ["As soon as you notice the bathtub you falther a bit: it’s filled with water.", 
+      "It’s not clean, but it’s not as disgusting as what you would expect supposedly very old, stagnant water to be."],
+
+
+              #MASTER BEDROOM
+
+    "object.bed.name":"Bedding",
+    "object.bed.description": ["A king sized bed facing the unlit fireplace."],
+
+    "object.chess.name": "Chess Set",
+    "object.chess.description": ["An ancient looking chess set, the pieces standing orderly in formation."],
+
+    "object.desk_1.name":"Desk",
+    "object.desk_1.description": ["On the expensive-looking desk there are some blank parchments and a small key"],
+    
+
+    "object.bedroom.key.name":"Small Key",
+    "object.bedroom.key.description": ["A small key you found in the hidden bedroom."],
+    "object.bedroom.key.use": ["The key you found in the hidden bedroom seems to match the small keyhole of the door in front of you. You try it and it fits perfectly, turning smoothly until the door clicks open."], #IF POSITION == NORTH HALLWAY
+
+    "object.closet.name":"Closet",
+    "object.closet.description": ["A closet. It looks firmly shut."],
+
+
+
+              #SECOND BEDROOM
+
+    
+    "object.double_bed.name": "Bedding",
+    "object.double_bed.description": ["A comfortable-looking double bed facing a large desk."],
+
+    "object.desk_2.name":"Desk",
+    "object.desk_2.description": ["A large desk on which you can see a small pile of books and some scattered papers."],
+
+    "object.papers.name": "Discarded Parchment",
+    "object.papers.description": ["You can’t decipher the dense writing on the parchment."],
+
+    "object.books.name": "Books".
+    "object.books.description": ["A small pile of books is sitting on the desk. You look at the words on the covers but you don’t recognize the language. One book in particular though, stands out.", 
+      "It's an ancient looking, leather-bound tome."],
+
+    "object.magic_book.name": "Ancient Tome",
+    "object.magic_book.description": ["he leather cover is cracked with age. Strange symbols are carved into the metal clasps."],
+    "object.magic_book.take": ["You decide to take the ancient tome with you."],
+    "object.magic_book.examine": ["You release the clasps and open the book. The pages are filled with drawings of herbs and strange creatures. The language is, once again, completely unfamiliar."],
+    "object.magic_book.use": ["The Ancient Tome fits perfectly in the vacant space left on the strange bookself.", 
+      "As soon as it rests in place, something clicks somewhere, and the bookself starts to rotate, showing an open space behind it."], #IN THE LIBRARY
+
+
+                  # LIBRARY
+
+    "object.tables_l.name":"Tables",
+    "object.tables_l.description": ["Small tables surrounded by plush seats and chairs."],
+
+    "object.bookshelves.name":"Bookshelves",
+    "object.bookshelves.description": ["You spend some time looking at the endless raws of books. Some are in different languages. Some look much older than others.", 
+      "In a corner of the large room, still lost in your aimless browsing, you stop in your traks, your attention caught by a particular bookself. You can’t exactly put your finger on it, but there’s something about it…"],
+
+
+
+                #SECRET ROOM
+
+    "object.arthur.name":"The King",
+    "object.arthur.description": ["Moving closer to the statue, you can make out more details: The long cape pinned to its shoulders, the light armour, the solid lines of its features and the crown on its head."],
+    "object.arthur.examine": ["As you reach out, the statue moves, the man’s eyes lending on you. ‘Ah. Looking for the way out, I would guess, yes?’. You nod, at a loss for words. This place is so weird.",
+      "‘I have what you seek, but I will have to ask a favor of you before I had it over to you. You see, I used to have a great sword with which I could face any sort of enemy.", 
+      "It had been a loyal companion in many battles, but it seems to have lost its resilience, as it recently got snapped. I am in dire need of a new sword to defend myself and my kingdom. Would you help me find a valid replacement?’.", 
+      "It is an easy decision to make, you don’t really have many other options. You nod, and the man looks satisfied. ‘You have my thanks, then.’ He says, stopping his motions immediately after."
+    ],
+    "object.arthur.conditional.examine": ["You approach the king, and he comes alive. ‘Well?’ he asks, expectantly. You explain to him what the sorcerer requested, and he actually rolls his eyes – not very “kingly” of him – as he listen.",
+      "‘Of course he would make this difficult…’ he complains under his breath, bringing a hand on his chin to think. After a moment of concentration, he lights up and reaches for a satchel at his side you didn’t notice before.",
+      "It’s not made of stone like the rest of the statue, but leather. Now that you watch closely, other little details seem to also have been applied to the statue in other materials, making it look all the more realistic.",
+      "As you wonder the reason, he opens the satchel and gently pulls something out, resting it gently in his other open palm. ‘You can bring him this.’ he seems a bit awkward and you curiosly move a little closer to see what he found.",
+      "It’s a flower. A delicate, strange, golden flower. You arch an eyebrow at the statue, and you have the feeling he is trying to look extra stoic and regal to cover for the fact that he’s actually a little embarassed.",
+      "‘Go on then, take it. He will recognize it and know it can only come from me. Do be careful, please. It is incredibly difficult and very dangerous to get this flower.", 
+      "And don’t get it too close to your face. The petals are poisonous, I’m not sure if the smell could do some damage as well.’",
+      "You take the flower, careful not to accidentally ruin it – or inhale its smell – and turn around to make fast work of this side quest.", 
+      "‘Is he...’ you think you hear from behind you, but it’s so soft you’re not really sure, and when you turn around to ask him to repeat, the statue is just a statue again."
+    ],
+    "object.arthur.final.examine": ["“You retrieve the newly magically-forged sword from your side to present it to the king. He takes it and turns it around in his hand, studying it under the soft lights and trying a couple of moves to get a feeling of it, before nodding, appeased.",
+      "His eyes land on you. ‘You did well on this quest my friend. I thank you for your help. As promised, this is your reward.’ There is a metal jingle coming from his belt, where he extricates a large ring filled with keys.",
+      "He takes one off and offers it to you. You take it esitantly. ‘There’s a door at the very end of the hallway past the library. This key will open it. Farewell, my friend, take good care of yourself.’ ",
+      "He smiles minutely and offers you his arm in a final greeting. You grip his forearm and he does the same. You nod to each other. You’re about to go, when you remember the message the sorcerer asked you to deliever.",
+      "You’re a bit worried the king will take offence at being called a ‘dollophead’, but he starts to laugh surprised and evidently amused. He shakes his head and thanks you again.",
+      "Then, slowly, the king resumes his guarding stance, the shadow of a private smile resting on the stone face the only clue anything at all really happened, and you walk away."
+    ],
+
+
+    "object.flower.name":"Mortaeus Flower",
+    "object.flower.description": ["A delicate golden flower, made of three main petals, stretched and slightly curved, with elongated tips. Apparently, the petals are poisonous."],
+
+    "object.exit_key.name": "Exit Key",
+    "object.exit_key.description": ["The key to the exit door in the East Hallway"],
+
+
+                # HALLWAY
+
+
+    "object.leon.name": "The Knight",
+    "object.leon.description": ["The statue represents a knight. He holds a shield in his left hand, while the right one is resting on the pommel of the sword secured at his waist."]
     
   },
 
   #DOORS
   
   "doors": {
+
+                        # MAIN HALLWAY
+
+    "door.library.name": "Library Door",
+    "door.library.description": ["A heavy, wooden double door with an intricately decorated golden keyhole."],
+
+                        #LIBRARY
+
+    "door.secret.name": "Strange Bookshelf",
+    "door.secret.description": ["You look closer, follow its edges with your fingers, and eventually notice the stone at your feet is scratched in a more defined way than the ones surrounding it.", 
+      "A track. So the bookshelf is a sort of secret door? But what makes it open? You look up again, focusing on the shelves.",
+      "They’re all full of books. Except for one, which seems to be missing"],
+
+                        #NORTH HALLWAY
+
+    "door.bedroom.name": "Bedroom Door",
+    "door.bedroom.description": ["A pointed arch door. It’s locked"],
+
+                        #EAST HALLWAY
+
+    "door.bedroom_exit.name": "Bedroom Exit",
+    "door.bedroom_exit.outside.description": ["An unobtrusive door, it goes almost unnoticed."], #IT ONLY OPENS FROM THE INSIDE
+    "oor.bedroom_exit.inside.description": ["An unobtrusive door with a big metal handle."],
+
+    "door.exit.name": "Exit",
+    "door.exit.description": ["A heavy looking door. Strange symbols are carved into the frame. It looks exactly like the one in the entrance."]
+    
     
   },
 
   #SYSTEM
   
   "system": {
-    
+    "system.object.door.closed": "The door won’t budge.",
+    "system.invalid.use": "Nothing happens.",
+    "system.invalid.examine": "There’s nothing interesting about this.",
+    "system.unclear.key": "You have more than one with you. Which one do you want to try?",
+    "system.wrong.key": "The key doesn’t fit.",
+    "system.correct.key": "You push the key in and turn. The lock clicks open smoothly.",
+    "system.final.message": "Escape Room 2: COMPLETED"
   },
 
   # ACTIONS
@@ -189,8 +451,8 @@
   "verbs": {
     "MOVE": ["go", "walk", "move", "enter", "exit", "out", "approach"],
     "TAKE": ["take", "grab", "pick"],
-    "EXAMINE": ["examine", "look", "inspect", "touch"],
-    "USE": ["put", "place", "insert", "turn", "push", "pull", "open", "give", "fill" ]
+    "EXAMINE": ["examine", "look", "inspect", "touch", "read"],
+    "USE": ["use", "put", "place", "insert", "turn", "push", "pull", "open", "give", "fill" ]
   }
 }
 
